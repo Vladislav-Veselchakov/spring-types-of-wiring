@@ -6,6 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Application {
     public static void main(String[] args) {
+        System.out.println("--------- VL main() -------");
         ApplicationContext applicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
         KoscheiTheDeathless koscheiTheDeathless =
